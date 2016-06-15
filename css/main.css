@@ -1,0 +1,191 @@
+
+* {
+	font-family: font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*---------CONTENEDOR DE FONDO-----------*/
+
+.bg_blue {
+	background-color: #004C8A;
+
+}
+.bg_darkgreen {
+	background-color: #007D8A;
+	height: 110px;	
+}
+.container {
+	margin-top: -90px;
+}
+
+/*---------LISTA DE CHATS----------*/
+.headerChats {
+	background-color: #00BED1;
+	border: 1px solid #DCDCDC;
+	width: 100%;
+	height: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.headerContactoActivo {
+	display: inline-block;
+}
+.contactPanel {
+	width: 100%;
+	border: 1px solid #DCDCDC;
+	background-color: #E6E6E6;
+}
+.perfilPic {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+
+.displayInBl {
+	display: inline-block;
+}
+
+.rigth {
+	float: right;
+	padding: 10px 5px;
+}
+
+.icon-message {
+	font-size: 20px;
+	color: #fff;
+}
+.icon-attachment {
+		font-size: 20px;
+	color: #fff; 
+}
+.icon-dots-three-vertical {
+	font-size: 20px;
+	color: #fff; 
+}
+
+.contactPanel {
+	width: 100%;	
+}
+
+.chatList {
+	width: 100%;
+	height: 424px;
+	overflow: scroll;
+}
+
+.barraChat {
+	width: 100%;
+	height: 70px;
+	border-bottom: solid #DCDCDC 1px;
+	background-color: white;
+}
+.barraChat:hover {
+	background-color: #E6E6E6;
+}
+
+.profPic {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	margin-left: 10px;
+}
+.barrasAligne {
+	float: left;
+	padding-top: 10px;
+}
+.wdt15 {
+	width: 15%;
+}
+.wdt70 {
+	width: 70%;
+}
+.wdt10 {
+	width: 10%;
+}
+
+/*---------CHAT ACTIVO----------*/
+.chatsPanel {
+	width: 100%;
+	border: 1px solid #DCDCDC;
+	background-image: url(../image/chat-panel-bg.png);
+	background-color: #E6E6E6;
+}
+
+.bg_ChatActivo {
+	width: 100%;
+	height: 70px;
+	border: 1px solid #DCDCDC;
+	background-color: #56BDC1;
+}
+
+.contactChat {
+	width: 100%;
+	height: 424px;
+	overflow: scroll;
+}
+
+#mensaje {
+	width: 50%;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid #8EAAB2;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.nameContact {
+	color: #29AFDB;
+}
+
+.hora {
+	margin-left: 80%;
+	color: #3C4045;
+}
+
+.user_Msj {
+	float: right;
+	width: 50%;
+	background-color: azure;
+	border-radius: 10px;
+	border: 1px solid #8EAAB2;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.hrjs {
+	text-align: right;
+	font-size: 12px;
+}
+
+
+/*----------ENTRADA DE NUEVOS MENSAJES AL CHAT-------------*/
+
+/*Este div contiente el textarea*/
+#interactive_Box{
+	margin: 0px 0px;
+	background-color: #E6E6E6;
+	padding: 10px;
+}
+
+/*Esta es la clase que le da estilo al textarea*/
+.ingresaTexto {
+	width: 87%;
+	border: none;
+	border-radius:5px;
+	padding: 6px;
+	text-decoration: none;
+}
+
+.icon-insert_emoticon {
+	color: gray;
+	font-size: 25px;
+	margin-right: 10px;
+}
+.icon-mic {
+	color: gray;
+	font-size: 25px;
+	margin-left: 10px;
+}
